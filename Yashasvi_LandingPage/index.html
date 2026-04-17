@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Netflix Landing Page</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-5.3.8.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	      <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#watch">Watch Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-3"><a class="btn btn-danger btn-sm" href="#signup">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center vh-100">
+                <div class="col-lg-7 col-md-6">
+                    <div class="hero-content">
+                        <h1 class="fw-bold mb-4">Join Netflix Today</h1>
+                        <p class="mb-4">Watch thousands of TV shows and movies on your phone, tablet, laptop, TV, or anything with an internet connection.</p>
+                        <a href="#" class="btn btn-danger btn-lg px-5">Start Your Free Trial</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="signup-form-card" id="signup">
+                        <h3 class="mb-4">Get Started in Minutes</h3>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Password" required>
+                            </div>
+                            <div class="mb-4">
+                                <input type="tel" class="form-control" placeholder="Phone Number" required>
+                            </div>
+                            <button type="submit" class="btn btn-danger w-100">Create Account</button>
+                        </form>
+                        <div class="text-center mt-3">
+                            <small>Already have an account? <a href="#" class="text-white fw-bold">Sign in</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section py-5 bg-dark text-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Everything You Need for Entertainment</h2>
+                <p class="lead text-white-50 mb-0">Discover why millions choose Netflix every day</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        
+                        <h4 class="fw-bold mb-3">Watch Anywhere</h4>
+                        <p class="text-white-50 mb-0">Stream unlimited movies and TV shows  with 4K UHD internet connection.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        
+                        <h4 class="fw-bold mb-3">Family Accounts</h4>
+                        <p class="text-white-50 mb-0">Create up to 5 personalized profiles. No sharing passwords or complicated accounts to manage.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        
+                        <h4 class="fw-bold mb-3">Download and Go</h4>
+                        <p class="text-white-50 mb-0">Save your favorites easily and always have something to watch, even without internet.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        
+                        <h4 class="fw-bold mb-3">Mobile Ready</h4>
+                        <p class="text-white-50 mb-0">Watch on your favorite mobile devices with the Netflix app. Available for iOS and Android.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        
+                        <h4 class="fw-bold mb-3">No Ads</h4>
+                        <p class="text-white-50 mb-0">Enjoy uninterrupted entertainment. No ads, no extra fees, just pure viewing experience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item text-center">
+                        
+                        <h4 class="fw-bold mb-3">Cancel Anytime</h4>
+                        <p class="text-white-50 mb-0">No contracts or cancellation fees. Simple monthly billing you can change or cancel anytime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Watch Now Section -->
+    <section id="watch" class="watch-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Watch Your Favorite Movies and Series</h2>
+                <p class="lead text-muted">Enjoy unlimited entertainment on any device</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card text-center">
+                        <img src="images/stranger-things.png" alt="Stranger Things" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Stranger Things</h5>
+                            <a href="#" class="btn btn-outline-danger">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card text-center">
+                        <img src="images/wednesday.png" alt="Wednesday" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Wednesday</h5>
+                            <a href="#" class="btn btn-outline-danger">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card text-center">
+                        <img src="images/the-witcher.jpg" alt="The Witcher" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">The Witcher</h5>
+                            <a href="#" class="btn btn-outline-danger">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card text-center">
+                        <img src="images/squid-game.png" alt="Squid Game" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Squid Game</h5>
+                            <a href="#" class="btn btn-outline-danger">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+	  <section id="contact"> 
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" height="40" class="mb-3">
+                    <p>Unlimited movies, TV shows, and more. Watch anywhere. Cancel anytime.</p>
+                </div>
+				
+                <div class="col-lg-4 col-md-6 mb-4">
+                    
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <h6>Connect With Us</h6>
+                    <div class="social-icons">
+                    <a href="#"> <img src="images/instagram.png" width="30" alt="instagram"/> </a>
+					<a href="#"> <img src="images/facebook.png" width="30" alt="facebook"/> </a>
+					<a href="#"> <img src="images/twitter.png" width="30" alt="twitter"/> </a>
+					<a href="#"> <img src="images/linkedin.png" width="30" alt="linkedin"/> </a>
+					</div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Netflix. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 me-3">Service Code</a>
+                    <a href="#" class="text-white-50">Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </section>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper-2.11.8.min.js"></script> 
+	<script src="js/bootstrap-5.3.8.js"></script>
+  </body>
+</html>
